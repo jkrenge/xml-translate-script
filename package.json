@@ -1,0 +1,17 @@
+{
+  "name": "xml-translate-script",
+  "version": "0.0.1",
+  "description": "Translates defined attributes in a bunch of XML files at once.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julian Krenge",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.0.0",
+    "google-translate": "^1.0.6",
+    "underscore": "^1.8.3",
+    "xml2js": "^0.4.17"
+  }
+}
