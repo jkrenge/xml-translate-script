@@ -52,6 +52,8 @@ function select(object, selector) {
  */
 function translateOneFile(filename, callback) {
 
+  if (!/\.xml$/gi.test(filename)) return callback(null);
+
   var string = fs.readFileSync(filename);
   xmlParse(string, function (err, result) {
 
